@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Models and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+model_cache/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Data files
+data/
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Generated files
+results/
+logs/
+outputs/
+*.log
+
+# Local agent workload scratch experiments
+.pycache/
+.venv-swe/
+haystack/benchmark_faiss_search_only.py
+haystack/build_smoke_index.py
+haystack/diagnose_faiss_torch_crash.py
+haystack/prepare_beir_scifact.py
+haystack/prepare_small_corpus.py
+haystack/retrieval_only.py
+mini-swe-agent/bubble_sort_benchmark.py
+scripts/run_haystack_retrieval_smoke.sh
+
+# API keys and secrets
+.env
+.env.local
+*.key
+secrets/
+credentials.json
+
+# FAISS indices
+*.index
+*.faiss
+rag_flat_store/
+index_store/
+
+# vLLM cache
+.vllm_cache/
+
+# Energy measurement outputs
+energy/gpu_power.csv
+energy/*.csv
